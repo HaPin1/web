@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>Stockage nom</title>
+</head>
+
+<body>
+    <script>
+        var prenoms = [], prenom;
+        while (prenom = prompt('Entrez un prenom :')) {
+        prenoms.push(prenom);
+        }
+        if (prenoms.length > 0) {
+        alert(prenoms.join(' '));
+        } else {
+        alert('Il n y a aucun prenom en memoire');
+        }
+    </script>
+</body>
+
+</html>

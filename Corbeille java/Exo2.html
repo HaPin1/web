@@ -1,0 +1,14 @@
+<html>
+
+<head>
+    <title>Jours</title>
+</head>
+
+<body>
+    <script language="JavaScript"> m = Number(prompt("Entrez le numero du mois", ""));
+        a = Number(prompt("Entrez le numero de l annee", "")); 
+        switch (m) { case 1: case 3: case 5: case 7: case 8: case 10: case 12: j = 31; break; case 4: case 6: case 9: case 11: j = 30; break; case 2: if (a % 4 == 0) j = 29; else j = 28; break; }alert("Le nombre de jours est : " + j);
+    </script>
+</body>
+
+</html>

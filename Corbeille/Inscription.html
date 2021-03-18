@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+            <img src="images/logo.png" alt="logo" width="100" height="100" title="Logo du site" />
+
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Apropos.html">A Propos</a></li>
+                <li><a href="Inscription.html">Inscription</a></li>
+                <li><a href="Connexion.html">Connexion</a></li>
+                <li><a href="Avis.html">Avis</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <h2>Formulaire d'inscription</h2>
+
+    <form method="post" action="/action_page.php">
+
+
+        <div>
+            <label for="fname">Prénom:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Nom:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+        </div>
+
+        <div>
+            <label for="civilite-select">Choix de la civilité:</label>
+
+            <select name="civilite" id="civilite-select">
+                <option value="">--Veuillez choisir une option--</option>
+                <option value="Monsieur">Monsieur</option>
+                <option value="Madame">Madame</option>
+                <option value="Mademoiselle">Mademoiselle</option>
+                <option value="Indefinie">Indefinie</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+
+        <div>
+            <label for="pass">Password (8 caractères max):</label>
+            <input type="password" id="pass" name="password" minlength="8" required>
+        </div>
+
+        <div>
+            <label for="confirmpass">Veuillez confirmer votre password:</label>
+            <input type="password" id="confirmpass" name="confirmpassword" maxlength="8" required>
+        </div>
+
+
+        <div>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Annuler">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

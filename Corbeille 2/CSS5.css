@@ -1,0 +1,32 @@
+body{
+    background-color:#00ffff;
+  }
+  
+.titre h1{
+    text-align:center;
+  }
+  
+.line{
+    
+    border-bottom: 2px solid;
+    display:block;
+    width:80%;
+  }
+.titre h2{
+    text-align:left;
+  }
+  mark{
+    background-color:white;
+    color:lightblue;
+  }
+  
+.p1{
+    font-family : comic sans ms;
+  }
+.p2{
+    font-family: arial;
+  }
+.p3{
+    font-family: verdana;
+  }
+  
